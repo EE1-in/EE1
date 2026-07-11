@@ -3,101 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EE1.in - BDS Q&A</title>
+  <title>EE1.in - Learning Platform</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #0e6675;
-      color: white;
-      padding: 15px;
-      text-align: center;
-    }
-    nav {
-      background: #05505d;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #0e6675;
-    }
-    .question {
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-    }
-    .premium {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .premium button {
-      background: #0e6675;
-      color: white;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    footer {
-      background: #05505d;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-    }
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0e6675; color:white; padding:20px; text-align:left; }
+    nav { background:#05505d; padding:10px; text-align:left; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    .hero { padding:60px; text-align:center; background:#eaf4f5; }
+    .hero h1 { color:#0e6675; font-size:2.5em; }
+    .hero p { font-size:1.2em; color:#333; }
+    .content { display:flex; flex-wrap:wrap; justify-content:center; margin:20px; }
+    .card { background:white; border:1px solid #ddd; border-radius:8px; width:280px; margin:15px; padding:20px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    .card h3 { color:#0e6675; }
+    .premium { text-align:center; margin:40px; }
+    .premium button { background:#0e6675; color:white; padding:15px 30px; border:none; border-radius:5px; font-size:16px; cursor:pointer; }
+    footer { background:#05505d; color:white; text-align:right; padding:15px; margin-top:30px; }
   </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2139844571272707"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <h1>EE1.in</h1>
-    <p>BDS Course Questions & Answers</p>
+    <p>Empowering and Educating Minds, One Concept at a Time.</p>
   </header>
-
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Questions</a>
-    <a href="#">Login</a>
-    <a href="#">Dashboard</a>
+    <a href="index.html">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Q&A</a>
+    <a href="login.html">Login</a>
   </nav>
-
-  <div class="container">
-    <h2>Latest Questions</h2>
-    <div class="question">
-      <strong>Q:</strong> What is prosthodontics?<br>
-      <strong>A:</strong> Prosthodontics is the dental specialty focusing on dental prostheses such as crowns, bridges, and dentures.
+  <section class="hero">
+    <h1>Learn Anytime, Anywhere</h1>
+    <p>Access curated courses, practice questions, and premium content designed for your success.</p>
+  </section>
+  <section class="content">
+    <div class="card">
+      <h3>Practice & Q&A</h3>
+      <p>Daily updated questions and answers to sharpen your knowledge.</p>
     </div>
-    <div class="question">
-      <strong>Q:</strong> Define oral pathology.<br>
-      <strong>A:</strong> Oral pathology studies diseases of the mouth and related structures.
+    <div class="card">
+      <h3>Premium Subscription</h3>
+      <p>Unlock Ad Free access, advanced study materials, mock tests, and exclusive features.</p>
+	<section class="premium">
+    		<button>Go Premium</button>
+  	</section>
     </div>
+  </section>
 
-    <div class="premium">
-      <h2>Unlock Full Access</h2>
-      <p>Subscribe to access all BDS questions, answers, and downloadable notes.</p>
-      <button>Go Premium</button>
-    </div>
-  </div>
-
-  <footer>
-    <p>&copy; 2026 EE1.in | All Rights Reserved</p>
-  </footer>
+	<footer>
+		<div class="text-center xl:text-grey-1 xl:text-[14px] xl:leading-[18px] xl:font-[500] text-[12px] text-black">Copyright © 2026 EEONE Digital All rights reserved.
+	</footer>
 </body>
 </html>
